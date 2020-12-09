@@ -132,7 +132,10 @@
 - 对于大流量的网站，你会采用什么方法来解决访问量
 
 - mysql_fetch_row()和mysql_fetch_array()之间有什么区别
-
+  - `mysql_fetch_array()` 取出关联数组，同时返回索引数组
+  - `mysql_fetch_row()`返回的是索引数组
+  - `mysql_fetch_assoc()`返回关联数组
+  - `mysql_fetch_object()`返回对象
 - MySQL的几个概念：主键，外键，索引，唯一索引
 
 - MySQL的存储引擎有哪些
